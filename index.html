@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Agold Int.</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="hamburger-icon.svg"
+        alt="menu"
+        id="menu-icon"
+        onclick="toggleMenu()"
+      />
+      <nav>
+        <script>
+          let menu = document.querySelector("#menu-icon");
+          let nav = document.querySelector("nav");
+          function toggleMenu() {
+            nav.classList.toggle("active");
+          }
+        </script>
+
+        <ul>
+          <li id="name">AGold Int.</li>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Properties</li>
+          <li>Agents</li>
+          <li><button>Find a House</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="hero-holder">
+        <div class="overlay">
+          <div class="hero-title">Find A House That Suits You</div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta odio
+            ullam tenetur reiciendis beatae vel inventore molestias aperiam?
+            Vitae, expedita?
+          </p>
+          <button class="get-started-btn">Get Started</button>
+          <div class="stats-holder">
+            <span class="stats"
+              >1200+
+              <h3 class="stats-txt">Listed Properties</h3>
+            </span>
+            <span class="stats"
+              >4500+
+              <h3 class="stats-txt">Happy Customers</h3></span
+            >
+            <span class="stats"
+              >100+
+              <h3 class="stats-txt">Awards</h3></span
+            >
+            <span class="stats"
+              >4500+
+              <h3 class="stats-txt">Happy Customers</h3></span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="search-section">
+      <h4>Search for available Properties</h4>
+      <div class="search-div2">
+        <div class="search-sub">
+          Location
+          <img
+            src="map-marker-filled.png
+          "
+            width="15px"
+          />
+        </div>
+        <div class="search-sub">
+          Property Type
+          <img
+            src="map-marker-filled.png
+        "
+            width="15px"
+          />
+        </div>
+        <div class="search-sub">
+          Budget
+          <img
+            src="map-marker-filled.png
+        "
+            width="15px"
+          />
+        </div>
+        <button>Search Now</button>
+      </div>
+    </section>
+    <section class="popular">
+      <h2>----Popular</h2>
+      <div class="popular-title">
+        <h1>Our Popular Homes</h1>
+        <h2>Explore All----</h2>
+      </div>
+      <div class="card-section">
+        <!-- card -->
+        <div class="card">
+          <img src="IMG-20250301-WA0040.jpg" class="card-image" />
+          <div class="card-desc">
+            <h4>Banana Island, Lagos</h4>
+            <div class="card-spec">
+              <span>4 Beds</span><span>10 * 10m</span><span>1600m</span>
+            </div>
+            <div class="price-sec">
+              <button>Book now</button
+              ><span class="card-price">N100,000,000</span>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <img
+            src="b39ad22e-aa47-4b2d-81e9-239815489916.jpeg"
+            class="card-image"
+          />
+          <div class="card-desc">
+            <h4>Banana Island, Lagos</h4>
+            <div class="card-spec">
+              <span>2 Beds</span><span>10 * 10m</span><span>1600m</span>
+            </div>
+            <div class="price-sec">
+              <button>Book now</button
+              ><span class="card-price">N100,000,000</span>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <img src="IMG-20250301-WA0042.jpg" class="card-image" />
+          <div class="card-desc">
+            <h4>Pacific Island, Lagos</h4>
+            <div class="card-spec">
+              <span>3 Beds</span><span>10 * 10m</span><span>1600m</span>
+            </div>
+            <div class="price-sec">
+              <button>Book now</button
+              ><span class="card-price">N100,000,000</span>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <img
+            src="b39ad22e-aa47-4b2d-81e9-239815489916.jpeg"
+            class="card-image"
+          />
+          <div class="card-desc">
+            <h4>Banana Island, Lagos</h4>
+            <div class="card-spec">
+              <span>4 Beds</span><span>10 * 10m</span><span>1600m</span>
+            </div>
+            <div class="price-sec">
+              <button>Book now</button
+              ><span class="card-price">N90,000,000</span>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <img src="IMG-20250301-WA0042.jpg" class="card-image" />
+          <div class="card-desc">
+            <h4>Eko Island, Lagos</h4>
+            <div class="card-spec">
+              <span>3 Beds</span><span>10 * 10m</span><span>1600m</span>
+            </div>
+            <div class="price-sec">
+              <button>Book now</button
+              ><span class="card-price">N300,000,000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <h2>Subscribe To Our Newsletter</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+        corporis.
+      </p>
+      <div class="searchBar">
+        <input type="text" placeholder="email@example.com" />
+        <button>Subscribe</button>
+      </div>
+    </section>
+    <footer>
+      <div class="ceo-sec">
+        <div class="ceo-name">
+          <h2>Kevin Durant</h2>
+          <h6>CEO of AGold International</h6>
+        </div>
+        <p>
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+          necessitatibus error harum illum laudantium nihil at eveniet
+          dignissimos Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Ipsum, consectetur."
+        </p>
+      </div>
+      <hr />
+      <div class="footer-main">
+        <div class="footer-nav">
+          <h3>Quick Links</h3>
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Our Agents</p>
+          <p>lorem ipsor</p>
+        </div>
+        <div class="footer-nav">
+          <h3>Support</h3>
+          <p>Our Trainers</p>
+          <p>Prices</p>
+          <p>Success Stories</p>
+          <p>Our Collaborators</p>
+        </div>
+        <div class="copyright">copyright &copy; 2025</div>
+      </div>
+    </footer>
+  </body>
+</html>
