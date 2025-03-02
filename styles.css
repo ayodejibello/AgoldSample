@@ -89,13 +89,14 @@ button {
 .search-section {
   background-color: white;
   box-shadow: 1px 1px 6px black;
-  width: max-content;
+  width: fit-content;
   height: 100px;
   margin-top: -30px;
   display: flex;
   border-radius: 5px;
   flex-direction: column;
   justify-self: center;
+  align-self: center;
   row-gap: 20px;
   padding: 25px;
   margin-bottom: 30px;
@@ -372,6 +373,8 @@ hr {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.836);
     height: 70;
     width: max-content;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -20px;
     display: flex;
     flex-direction: column;
@@ -385,12 +388,14 @@ hr {
     display: flex;
     flex-direction: flexs;
     justify-content: center;
+    flex-wrap: wrap;
     column-gap: 10px;
   }
   .search-sub {
     border: 0.3px solid black;
     width: max-content;
     height: max-content;
+    flex-wrap: wrap;
     padding: 3px 6px;
     border-radius: 2px;
     display: flex;
