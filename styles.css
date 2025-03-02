@@ -1,5 +1,5 @@
 * {
-  font-family: poppins;
+  font-family: poppins, calibri;
   margin: 0;
 }
 #menu-icon {
@@ -34,8 +34,9 @@ nav ul {
   color: white;
 }
 .hero-title {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
+  text-align: center;
   color: white;
 }
 .hero-title ~ p {
@@ -54,7 +55,7 @@ button {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   padding-left: 40px;
   display: flex;
   width: 95%;
@@ -139,7 +140,7 @@ button {
   align-items: center;
   column-gap: 40px;
   overflow-x: scroll;
-  padding-bottom: 10px;
+  padding: 20px;
   scrollbar-width: none;
 }
 .card {
@@ -195,6 +196,7 @@ button {
   justify-self: center;
   align-items: center;
   padding: 50px 10px;
+  row-gap: 10px;
   text-align: center;
 }
 .newsletter .searchBar {
@@ -222,7 +224,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.918);
   color: white;
   height: max-content;
-  padding: 40px 20px;
+  padding: 40px 40px;
 }
 .ceo-sec {
   display: flex;
@@ -367,7 +369,7 @@ hr {
   }
   .search-section {
     background-color: white;
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.836);
     height: 70;
     width: max-content;
     margin-top: -20px;
@@ -382,7 +384,7 @@ hr {
   .search-div2 {
     display: flex;
     flex-direction: flexs;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 10px;
   }
   .search-sub {
@@ -393,7 +395,7 @@ hr {
     border-radius: 2px;
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 10px;
     font-weight: bold;
     font-size: 8px;
   }
@@ -496,8 +498,9 @@ hr {
 
   .newsletter .searchBar input {
     width: 150px;
-    height: 26px;
+    height: 25px;
     border-right: none;
+    border-radius: 0px;
     border: 1px solid black;
     outline: none;
     padding-left: 10px;
@@ -515,7 +518,7 @@ hr {
     background-color: rgba(0, 0, 0, 0.918);
     color: white;
     height: max-content;
-    padding: 20px 10px;
+    padding: 30px 10px;
   }
   .ceo-sec {
     display: flex;
